@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="/Fuel Usage with JavaScript">
+  <meta name="Sekutowski" content="Calculator">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+<div class="container">
+<div class="element">
+<form name="calculator" method="post">
+	<label class="label">Ilość paliwa w litrach:</label><br /><input class="inputs" id="firstValue" type="number" name="amountOfFuel" onfocus="this.value=''" min="1" max="100"/><br /><br />
+	<label class="label">Ilość przejechanych km:</label><br /><input class="inputs" id="secondValue" type="number" name="numberOfKilometers" onfocus="this.value=''" min="1" max="1000"/><br />
+	<button class="calcButton" type="button" onclick="Calculate()">Oblicz</button><br /><br />
+	<label class="label" id="score"></p>
+</form>
+</div>
+</div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
