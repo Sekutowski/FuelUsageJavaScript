@@ -27,8 +27,4 @@ function Calculate()
 		
 }
 
-function LargeCombustion()
-{
-	alert("Oho Twoja fura sporo pali ;)");
-}
 
